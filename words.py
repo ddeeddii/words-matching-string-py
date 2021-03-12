@@ -5,7 +5,7 @@ with open("words.txt") as file:
   lines = [i.strip() for i in file]
 
 for i in lines:
-    if "dis" in lines[x]:
+    if "STRING" in lines[x]:
         listgood.append(lines[x])
     x += 1
 
